@@ -22,6 +22,7 @@ print("\n*******Student Info*************")
 print("Name:",name)
 print("Age:",age)
 print("City:",city)"""
+
 #Ex4:
 #Take marks of three Subject from the user . calculate and displayed their Total and Average Marks.....
 """sub1=float(input("Enter the 1st Subject Marks"))
@@ -570,10 +571,12 @@ while num>0:
 """def message():
       print("Hello")
 
-message()"""
-x=int(input("Enter No"))
+message()
+"""
+"""x=int(input("Enter No"))
 y=int(input("Enter No"))
 def addition(x,y):
+<<<<<<< HEAD
 print("Addition =",x+y)
 
 
@@ -581,3 +584,9 @@ print("Addition =",x+y)
 
 
 addition(x,y)
+=======
+    print("Addition =",x+y)
+addition(x,y)"""
+print("hello Danyal")
+print("This is me danyal khan")
+>>>>>>> 8493029 (update files)
