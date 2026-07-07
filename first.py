@@ -576,17 +576,9 @@ message()
 """x=int(input("Enter No"))
 y=int(input("Enter No"))
 def addition(x,y):
-<<<<<<< HEAD
 print("Addition =",x+y)
-
-
-
-
-
 addition(x,y)
-=======
-    print("Addition =",x+y)
+print("Addition =",x+y)
 addition(x,y)"""
 print("hello Danyal")
 print("This is me danyal khan")
->>>>>>> 8493029 (update files)

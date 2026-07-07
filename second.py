@@ -270,3 +270,5 @@ login()"""
             print("*",end="")
 student_result()"""
 print("This is me danyal khan")
+print("hello Danyal")
+print("This is me danyal khan")
