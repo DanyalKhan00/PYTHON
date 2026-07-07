@@ -582,3 +582,9 @@ print("Addition =",x+y)
 addition(x,y)"""
 print("hello Danyal")
 print("This is me danyal khan")
+
+**************************8
+*
+***********************88
+*****************888
+*******************
