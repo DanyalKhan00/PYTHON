@@ -271,4 +271,48 @@ login()"""
 student_result()"""
 print("This is me danyal khan")
 print("hello Danyal")
-print("This is me danyal khan")
+print("This is me danyal khan") 
+#RECURSION *****************
+#Ex1: sum from 1 to n using Recursion .....
+"""def sum(n):
+    if n==1:
+        return 1
+    else:
+        return(n+sum(n-1))
+
+n=int(input("Enter Number"))
+f=sum(n)
+print("Sum =",n)"""
+#Ex2: Find Factorial Using Recursion
+"""def fact(n):
+    if n==1 or n==0:
+        return 1
+    else:
+        return n*fact(n-1)
+
+n=int(input("Enter Number"))
+print("factorial is ",fact(n))
+"""
+#Ex3:Write a Python function that accepts a string and returns the number of uppercase and lowercase letters separately.
+"""def count(text):
+    upper=0
+    lower=0
+    for ch in text:
+        if ch.isupper():
+            upper+=1
+        elif ch.islower():
+            lower+=1
+    return upper,lower
+name=input("Enter String")
+uppercase, lowercase=count(name)
+print("Upper Case",uppercase)
+print("Lower Case ",lowercase)"""
+#Ex4: Write a recursive function to find the power of a number (xⁿ).
+def pow(x,n):
+    if n==0:
+        return 1
+    else:
+        return x * pow (x,n-1)
+base=int(input("Enter Base"))
+Exp=int(input("Enter Exponent"))
+print("Power is ",pow(base,Exp))
