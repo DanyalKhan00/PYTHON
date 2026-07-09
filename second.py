@@ -308,11 +308,70 @@ uppercase, lowercase=count(name)
 print("Upper Case",uppercase)
 print("Lower Case ",lowercase)"""
 #Ex4: Write a recursive function to find the power of a number (xⁿ).
-def pow(x,n):
+"""def pow(x,n):
     if n==0:
         return 1
     else:
         return x * pow (x,n-1)
 base=int(input("Enter Base"))
 Exp=int(input("Enter Exponent"))
-print("Power is ",pow(base,Exp))
+print("Power is ",pow(base,Exp))"""
+#Ex5:A library charges a fine based on the number of late days.
+#Up to 5 days → Rs. 10/day
+#6–10 days → Rs. 20/day
+#More than 10 days → Rs. 50/day
+#If days are negative, display Invalid Input.
+#Ex6:Write a Python program to calculate the total fine.
+"""days=int(input("Enter No of days"))
+if days<0:
+    print("Invalid Input")
+elif days <= 5:
+    fine=days * 10
+elif days <= 10:
+    fine= days * 20
+else:
+    fine= days * 50
+if days >=0:
+    print("Total Fine is :",fine)"""
+#Ex7:Input numbers continuously until the user enters 0.
+"""Display:
+Total numbers entered (excluding 0)
+Sum of even numbers
+Sum of odd numbers
+"""
+"""count=0
+sum_even=0
+sum_odd=0
+while True:
+    num=int(input("Enter Num"))
+    if num ==0:
+        break
+    count+=1
+    if num % 2 == 0:
+        sum_even +=num
+    else:
+        sum_odd +=num
+print("The total Number is ",count)
+print("The Sum of Even Number is ",sum_even)
+print("The Sum of Odd Number is ", sum_odd)
+"""
+#Ex8:Write a function that accepts a string and returns the number of words in the string without using split().
+"""def count_word(text):
+    word=1
+    for ch in text:
+        if ch==" ":
+            word+=1
+    return word
+sen=input("Enter Sentence")
+print("total word =", count_word(sen))"""
+#Ex9:Write a recursive function to count the number of digits in a positive integer.
+d"""ef count_digits(n):
+    if n < 10:
+        return 1
+
+    return 1 + count_digits(n // 10)
+
+
+num = int(input("Enter Number: "))
+
+print("Total Digits =", count_digits(num))"""
