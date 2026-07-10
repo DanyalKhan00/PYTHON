@@ -134,7 +134,35 @@ print(string.lower())"""
 #Ex5:Write a program that changes all uppercase letters to lowercase and all lowercase letters to uppercase.
 """string=input("Enter a String")
 print(string.swapcase())"""
-
+#*************** FIND FUNCTION () *************************
+#Ex1:
+"""a="DANYAL IS GOING TO HOME"
+b="TO"
+result=a.find(b,0,(len(a)-1))
+print(result)"""
+#Ex2:Write a Python program to check whether the word "Python" exists in the given string using find(). If found, print its index; otherwise, print "Word Not Found".
+"""string="i love python"
+text="python"
+postion=string.find("python")
+if postion==-1:
+    print("Word Not Found")
+else:
+    print("Word Found at index",postion)"""
+#Ex3:Write a Python program that asks the user to enter a sentence and a word. Find the position of the word using find().
+"""string=input("Enter a string")
+word=input("Enter a word")
+postion=string.find(word)
+if postion==-1:
+    print("Word Not Found")
+else:
+    print("Word Found at index",postion)"""
+#Ex4:Write a Python program to find the position of the first space in a sentence using find().
+"""string=input("Enter a string")
+position=string.find(" ")
+if position ==-1:
+    print("Space Not Found")
+else:
+    print("Space Found at index",position)"""
 #*********  MIX QUESTION ************
 #Question 1: Student Identity Card 
 #Write a Python program that:
@@ -199,3 +227,24 @@ print("Last Character",full_name[-1])
 print("Reversre",full_name[::-1])
 print("length",len(full_name))
 print("Title",full_name.title())"""
+#Ex: program to find the revrse of a string ...
+"""string=input("Enter string")
+print(string[-1::-1])"""
+#   OR
+"""a=input("Enter string")
+for i in range((len(a)-1),-1,-1):
+    print(a[i],end="")"""
+
+#Ex: Program to count vowel and consonant...
+"""a=input("Enter String")
+vowel=0
+cons=0
+for i in range(0,len(a)):
+    if(a[i]!=" "):
+        if a[i]=="a" or  a[i]=="e" or a[i]=="i" or  a[i]=="o" or  a[i]=="u" or  a[i]=="A" or  a[i]=="E" or  a[i]=="I" or  a[i]=="O" or  a[i]=="U":
+            vowel=vowel+1
+            
+        else:
+            cons=cons+1
+print("Total Consonant:",cons)
+print("Total Vowel:",vowel)"""
