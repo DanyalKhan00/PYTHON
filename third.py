@@ -227,6 +227,7 @@ print("Last Character",full_name[-1])
 print("Reversre",full_name[::-1])
 print("length",len(full_name))
 print("Title",full_name.title())"""
+#******************************************************************************************
 #Ex: program to find the revrse of a string ...
 """string=input("Enter string")
 print(string[-1::-1])"""
@@ -234,7 +235,7 @@ print(string[-1::-1])"""
 """a=input("Enter string")
 for i in range((len(a)-1),-1,-1):
     print(a[i],end="")"""
-
+#****************************************************************************************
 #Ex: Program to count vowel and consonant...
 """a=input("Enter String")
 vowel=0
@@ -248,3 +249,13 @@ for i in range(0,len(a)):
             cons=cons+1
 print("Total Consonant:",cons)
 print("Total Vowel:",vowel)"""
+#Ex *************************************************************************************
+"""a=input("Enter a string")
+b=a[-1::-1]
+if (a==b):
+    print("Palindrome")
+else:
+    print("Not a Palindrome")"""
+a="ram"
+name=a not in "ram"
+print(name)
