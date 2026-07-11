@@ -81,3 +81,36 @@ second=min(numbers)
 numbers.remove(second)
 third=min(numbers)
 print("The Third Smallest Number is:",third)"""
+#******************** APPEND FUNCTION ************************
+#Ex1:
+"""a=[]
+for i in range(5):
+    num=int(input("Enter No"))
+    a.append(num)
+print(a)"""
+#Ex2:Write a Python program that asks the user to enter 10 numbers. Store only the even numbers in a new list using the append() function and display the new list.
+"""even_num =[]
+for i in range(5):
+    num=int(input("Enter No"))
+    if num% 2 == 0:
+        even_num.append(num)
+print("Even Number",even_num)
+"""
+#Ex3:Write a Python program that asks the user to enter 8 numbers. Store the positive numbers in one list and the negative numbers in another list using the append() function
+"""positive = []
+negative = []
+for i in range(8):
+    num=int(input("Enter No"))
+    if num>0:
+        positive.append(num)
+    else:
+        negative.append(num)
+print("Total positive Number",positive)
+print("Total Negative Number",negative)"""
+#Ex4:Write a Python program that asks the user to enter 8 numbers. Store only the numbers that are divisible by 5 in a new list using the append() function and display the new list.
+"""number = []
+for i in range(8):
+    num=int(input("Enter No"))
+    if num % 5 ==0:
+        number.append(num)
+print("the Number Divisble by 5 is :",number)"""
