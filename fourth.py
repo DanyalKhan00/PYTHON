@@ -247,7 +247,7 @@ else:
 #Removes the last element using pop().
 #Reverses the list.
 #Prints the final list.
-number = []
+"""number = []
 for i in range(7):
     x=int(input("Enter Number : " ))
     number.append(x)
@@ -255,4 +255,4 @@ number.insert(2,100)
 number.pop()
 number.reverse()
 number.sort()
-print("The Final List is :" , number)
+print("The Final List is :" , number)"""
