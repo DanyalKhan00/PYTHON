@@ -114,3 +114,145 @@ for i in range(8):
     if num % 5 ==0:
         number.append(num)
 print("the Number Divisble by 5 is :",number)"""
+#********************************** COUNT FUNCTION () **************
+#Ex1:
+"""list=["dani","zarar","dani","Aimi","python","dani"]
+b=list.count("dani")
+print("Count = ", b)
+"""
+#Ex2:
+"""a=[]
+for i in range(6):
+    x=input("Enter the Element You Want to Add")
+    a.append(x)
+x=input("Enter the Element to find frequency")
+b=a.count(x)
+print("Frequency is = ", b)"""
+#********************************** INDEX FUNCTION () **************
+#Ex1:
+"""list=["dani","zarar","dani","Aimi","python","dani"]
+b=list.index("python")
+print("Index =",b)"""
+#Ex2:
+""""a=[]
+for i in range(6):
+    x=input("Enter the Element You Want to Add")
+    a.append(x)
+x=input("Enter the Element to find index")
+b=a.index(x)
+print("index is = ", b)"""
+#********************************** INSERT FUNCTION () **************
+#Ex1:
+"""list=["dani","zarar","anesa","Aimi","python","samar"]
+list.insert(3,"madi")
+print(list)"""
+#Ex2:
+"""a = []
+for i in range(5):
+    x=input("Enter List Element")
+    a.append(x)
+print("ORIGINAL LIST = ", a)
+index=int(input("Enter the index where u want to add value"))
+value=input("Enter the value u want to add")
+a.insert(index,value)
+print("List After Insertion ", a)"""
+#********************************** REMOVE FUNCTION () **************
+#Ex1:
+"""list=["dani","zarar","anesa","Aimi","python","samar"]
+list.remove("anesa")
+print(list)"""
+#********************************** REVERSE FUNCTION () **************
+#Ex1:
+"""list=["dani","zarar","anesa","aimi","python","samar"]
+list.reverse()
+print(list)"""
+#Ex2:
+"""a = []
+for i in range(5):
+    x=int(input("Enter Element"))
+    a.append(x)
+print("Original List =" , a)
+a.reverse()
+print("List After Reverse =", a)"""
+#********************************** POP FUNCTION () **************
+#Ex1:
+"""list=[4,5,6,7,8,9]
+list.pop(-3)
+print(list)"""
+#********************************** SORT FUNCTION () **************
+#Ex1:
+"""list=[5,6,0,2,1,11,7]
+list.sort(reverse=False)    # it will print in ascending order
+print(list)"""
+#Ex2:
+"""list=[5,6,0,2,1,11,7]
+list.sort(reverse=True)    # it will print in descending order
+print(list)"""
+#Ex3:
+"""a=[]
+for i in range(6):
+    x=int(input("Enter Element"))
+    a.append(x)                     
+print("orignal list=",a)
+a.sort()                    # will print elements in ascending order
+print("list after sorting=a",a)"""
+#Ex4:
+"""a=[]
+for i in range(6):
+    x=int(input("Enter Element"))
+    a.append(x)                     
+print("orignal list=",a)
+a.sort(reverse=True)                    # will print elements in descending order
+print("list after sorting=a",a)"""
+#**************** ALL LIST FUNCTION IN ONE PROGRAM *********************
+#Ex1:Takes 8 student marks from the user.
+#Prints:
+#Maximum marks
+#Minimum marks
+#Total number of marks
+#Sorts the marks in ascending order.
+#Removes the lowest mark from the list.
+#Prints the updated list.
+"""marks = []
+for i in range(5):
+    x=int(input("Enter Marks"))
+    marks.append(x)
+print("Maximum Marks is : ",max(marks))
+print("Minimum Marks is : ",min(marks))
+print("Total Marks is   : ",len(marks))
+marks.sort()
+print("Sorted List is   : ",marks)
+marks.remove(min(marks))
+print("Updated Lisr is  : ",marks)"""
+#Ex2:
+# Takes 6 employee names from the user.
+#Asks the user for a name to search.
+#If the name exists:
+#Print its index.
+#Print how many times it appears.
+#Otherwise, print "Employee not found".
+"""Emp = []
+for i in range(6):
+    name=input("Enter Name : ")
+    Emp.append(name)
+search = input("Enter the name to search")
+if search in Emp:
+    print("index = " , Emp.index(search))
+    print("Count = " , Emp.count(search))
+else:
+    print("Employee Not Found ! ")"""
+#Ex3:
+#Takes 7 numbers from the user.
+#Inserts 100 at index 2.
+#Removes the last element using pop().
+#Reverses the list.
+#Prints the final list.
+number = []
+for i in range(7):
+    x=int(input("Enter Number : " ))
+    number.append(x)
+number.insert(2,100)
+number.pop()
+number.reverse()
+number.sort()
+print("The Final List is :" , number)
