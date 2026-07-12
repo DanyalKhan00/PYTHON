@@ -256,3 +256,7 @@ number.pop()
 number.reverse()
 number.sort()
 print("The Final List is :" , number)"""
+a=["ali",23.5,"aimi",34,7]
+for i in a:
+    print(a)
+
