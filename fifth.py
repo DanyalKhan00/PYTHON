@@ -51,3 +51,23 @@ for i in range(7):
         count+=1
 print("Total Postive Integer Are : ", count)"""
 
+#**************** FUNCTION *****************
+#Question 1: Largest of Three Numbers
+#Create a function that accepts three numbers and returns the largest number.
+"""def largest(a,b,c):
+    return max(a,b,c)
+a=int(input("Enter No"))
+b=int(input("Enter No"))
+c=int(input("Enter No"))
+print("Largest No is " ,largest(a,b,c))"""
+#Question 2: Count Vowels
+#Create a function that accepts a string and returns the number of vowels.
+"""def count_vowel(text):
+    count = 0
+    for ch in text:
+        if ch in "aeiou" or ch in "AEIOU":
+            count += 1
+    return count
+name = input("Enter String: ")
+print("Vowel =", count_vowel(name))"""
+
