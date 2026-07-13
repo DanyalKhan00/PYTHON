@@ -256,7 +256,110 @@ number.pop()
 number.reverse()
 number.sort()
 print("The Final List is :" , number)"""
-a=["ali",23.5,"aimi",34,7]
+"""a=["ali",23.5,"aimi",34,7]
 for i in a:
-    print(a)
+    print(a)"""
 
+
+#******************* ALL IMPORTANT PROGRAM ON LIST ***********************************
+#Ex1:   FIND SUM OF ELEMENT IN LIST
+"""a = []
+size = int (input("Enter No Of Element : " ))
+for i in range(size):
+    num = int(input("Enter Number : " ))
+    a.append(num)
+sum = 0
+for i in range (size):
+        sum = sum + a[i]
+print("Sum of Element are: " , sum)"""
+
+#Ex2: COUNT TOTAL ODD & EVEN NUMBER
+"""a = []
+size = int(input("Enter the size of list: " ))
+for i in range(size):
+    num = int (input("Enter the List Element: "))
+    a.append(num)
+even = 0
+odd = 0
+for i in range(size):
+    if (i % 2 == 0):
+        even = even + 1
+    else:
+        odd = odd + 1
+print("Total Even = ",even , "Total Odd = ", odd)"""
+
+#Ex3: SEARCH ELEMENT IN LIST
+a = []
+"""size= int(input("Enter The size of List : "))
+for i in range (size):
+    num=int ( input("Enter the ELement Of List: "))
+    a.append(num)
+key=int (input("Enter the element You want to search"))
+flag =0 
+for i in range(size):
+    if (a[i]==key):
+        flag =1
+        pos=i+1
+       break
+if(flag==1):
+    print("Element Found at Postion, ", pos)
+else:
+    print("Element not found")"""
+
+#Ex4: PROGRAM TO COUNT FREQUENCY OF A NUMBER
+"""a =[]
+size=int (input("Enter Size of list: "))
+for i in range(size):
+    num = int(input("Enter List Element"))
+    a.append(num)
+key = int(input("Enter The Element You want to find it's frequency"))
+count  =0 
+for i in range(size):
+    if (a[i] == key):
+        count=count+1
+
+print("Frequency = ",count) """
+
+#Ex5: FIND MAX  IN LIST ..... 
+"""a = []
+size = int (input("Enter List Size : "))
+for i in range(size):
+    num = int (input("Enter List Element : "))
+    a.append(num)
+max = a[0]
+for i in range(size):
+    if (a[i]>max):
+        max = a[i]
+print("Maximum Value : ", max)
+"""
+#Ex6: FIND MIN  IN LIST .....                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+"""a = []
+size = int (input("Enter List Size : "))
+for i in range(size):
+    num = int (input("Enter List Element : "))
+    a.append(num)
+min = a[0]
+for i in range(size):
+    if (a[i] < min):
+        min = a[i]
+print("Minmum Value : ", min)"""
+#Ex7: PROGRAM TO REVERSE THE LIST ....
+"""a = []
+size = int (input("Enter List Size : "))
+for i in range(size):
+    num = int (input("Enter List Element : "))
+    a.append(num)
+original = a.copy() 
+a.reverse()
+print("Reverse List :" , a)
+print("Orignal List :", original)
+"""
+#Ex*: FIND SECOND MINIMUM NUMBER....
+"""a = []
+size= int(input("Enter Size : "))
+for i in range(size):
+    num = int (input("Enter List Element: "))
+    a.append(num)
+a.sort()
+print("First Minimum No is: ", a[0])
+print("Second Minimum No is : ", a[1])"""
