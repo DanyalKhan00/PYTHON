@@ -53,3 +53,47 @@ print(x)"""
 """t=("a","b","c","d")
 del(t)
 print(t)"""
+#               MIX PROGRAM ON TUPPLES  
+#Ex1:
+# Write a program to take n integers from the user, store them in a tuple, and count the number of even and odd elements.
+"""a = ()
+size = int(input("Enter Size of tuples"))
+for i in range(size):
+    num=int(input("Enter Tuples Element"))
+    a= a+ (num,)
+even = 0
+odd = 0
+for num in a:
+    if num % 2 == 0:
+        even = even +1
+    else:
+        odd=odd+1
+print("Tuples",a)
+print("Odd ",odd)
+print("Even ", even)"""
+
+#Ex2:Write a program to find the second largest element in a tuple
+"""a = ()
+size = int(input("Enter Size Of Tupples"))
+for i in range(size):
+    num=int(input("Enter Element of Tuple"))
+    a=a+ (num ,)
+largest = max(a)
+second = a[0]
+
+for i in a:
+    if i != largest and i > second:
+        second = i
+print("1st Largest " , largest)
+print("2nd largest ",second)"""
+
+"""a = ()
+size = int(input("Enter Size Of Tupples"))
+for i in range(size):
+    num=int(input("Enter Element of Tuple"))
+    a=a+ (num ,)
+search=int(input("Enter the element to search"))
+if search in a:
+    print("Found")
+else:
+    print("Not FOund")"""
