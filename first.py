@@ -477,7 +477,7 @@ print("Final Bill    :", payable)"""
 i=1
 while i<=n:
     print(i)
-    i=i+1"""
+    i=i+1
 #Ex3: Write a program to print number from n to 1
 """n=int(input("Enter the number you want to print in reverse"))
 #n=1
@@ -550,7 +550,7 @@ print("Largest number =", largest)"""
 
 sum=0
 
-while num>0:
+while num>0:                                                                          
     digit = num % 10
     sum += digit
     num //=10
@@ -570,7 +570,6 @@ while num>0:
 #********* FUNCTION *******************
 """def message():
       print("Hello")
-
 message()
 """
 """x=int(input("Enter No"))
@@ -579,12 +578,13 @@ def addition(x,y):
 print("Addition =",x+y)
 addition(x,y)
 print("Addition =",x+y)
-addition(x,y)"""
+addition(x,y)""""""
 print("hello Danyal")
-print("This is me danyal khan")
+print("This is me danyal khan")"""
 
 **************************8
 *
 ***********************88
 *****************888
 *******************
+"""
