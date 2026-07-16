@@ -74,3 +74,33 @@ print(dict1)
 dict1.update({"color":"white"})
 print(dict1)"""
 
+
+#Q1:Write a Python program to take 5 students' names and their marks as input and store them in a dictionary. Then display the complete dictionary.
+"""student = {}
+for i in range(5):
+    name=input("Enter Name: ")
+    marks= int(input("Enter Marks: "))
+    student[name]=marks
+print(student)"""
+#Q2: Create a Dictionary that take input and print the key and values separtely
+"""data = {}
+size = int(input("Enter Size: "))
+for i in range(size):
+    key = input("Enter Key: ")
+    value = input("Enter Value: ")
+    data[key] = value
+print("Keys:")
+for key in data.keys():
+    print(key)
+print("Values:")
+for value in data.values():
+    print(value)"""
+#Q4: Write a Python program to create a dictionary using user input and print the total number of key-value pairs in the dictionary
+
+data = {}
+size = int(input("Enter the size of DIcitionary"))
+for i in range(size):
+    key = (input("Enter the key"))
+    value= (input("Enter the value"))
+    data[key]=value
+print(len(data))
