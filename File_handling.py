@@ -37,17 +37,17 @@
 # print("Employee records saved successfully.")
 
      # ****(6)****
-# Delete a File Safely
-# import os
-# file_name = input("Enter The Name Of File You Want To Delete :")
-# try:
-#     os.remove(file_name)
-#     print("Files Deleted Successfully ")
-# except FileNotFoundError:
-#     print("File Not Found ")
-# except PermissionError:
-#     print("Permission Denied")
-# except Exception as e:
-#     print(e)
+Delete a File Safely
+import os
+file_name = input("Enter The Name Of File You Want To Delete :")
+try:
+    os.remove(file_name)
+    print("Files Deleted Successfully ")
+except FileNotFoundError:
+    print("File Not Found ")
+except PermissionError:
+    print("Permission Denied")
+except Exception as e:
+    print(e)
 
 

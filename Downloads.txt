@@ -1,0 +1,10 @@
+Name :ali
+Marks :45
+Dept :asd
+Clg :ass
+----------------------
+Name :daa
+Marks :56
+Dept :sd
+Clg :sd
+----------------------
